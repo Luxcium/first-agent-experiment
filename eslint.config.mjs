@@ -10,7 +10,6 @@ const compat = new FlatCompat({
   recommendedConfig: js.configs.recommended,
 });
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
   js.configs.recommended,
   ...compat.extends('plugin:@next/next/recommended'),
